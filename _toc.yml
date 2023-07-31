@@ -4,9 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
   - file: vandata/intro
     sections:
-      - file: vandata/markdown
+      - file: vandata/2021_Census_Data_Of_Metro_Vancouver
