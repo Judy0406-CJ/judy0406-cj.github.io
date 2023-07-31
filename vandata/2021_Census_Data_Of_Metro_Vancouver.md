@@ -1,3 +1,4 @@
+
 # 2021 Census Data Of Metro Vancouver
 ## <p align="right"> Based on 2021 Census of Population from Statistics Canada</p>
 
@@ -49,7 +50,7 @@ In 2021, the top three origin countries of recent immigrants to Metro Vancouver 
 
 ![image](images/immigration2.png)
 
-*'Recent immigrant' refers to an immigrant who first obtained his or her landed immigrant or permanent resident status between January 1, 2016 and May 11, 2021.*
+> 'Recent immigrant' refers to an immigrant who first obtained his or her landed immigrant or permanent resident status between January 1, 2016 and May 11, 2021.
 
 #### Geographic Distribution of Immigrants
 
@@ -121,7 +122,7 @@ The average value of dwellings continued to increase in Metro Vancouver between 
 
 ![image](images/Housing2.png)
 
-*The average value of a dwelling refers to the value of the entire dwelling, including the value of the land it is on and of any other structure, such as a
+> The average value of a dwelling refers to the value of the entire dwelling, including the value of the land it is on and of any other structure, such as a
 garage, which is on the property. If the dwelling is located in a building which contains several dwellings, or a combination of residential and business
 premises, all of which the household owns, the value is estimated as a portion of the market value that applies only to the dwelling in which the
 household resides.*
@@ -146,15 +147,15 @@ In addition, based on the above table, it is clear that even the average monthly
 
 #### Total Income Of Households
 
-In 2020, the median total income of households in Metro Vancouver was $90,000, a change of 23.8% from $72,662 in 2015.
+In 2020, the median total income of households in Metro Vancouver was `$90,000`, a change of 23.8% from `$72,662` in 2015.
 
 ![image](images/Income1.png)
 
-More than 75% households in Metro Vancouver had the total income below $150,000 in 2020, wherein about 30% households had the total income belonging to the income group $50,000-$99,999.
+More than 75% households in Metro Vancouver had the total income below `$150,000` in 2020, wherein about 30% households had the total income belonging to the income group $50,000-$99,999.
 
 ![image](images/Income2.png)
 
-According to the above map, we can see that households in both Belcarra and Anmore had the top median total income above $160,000 in 2020, while households in Electoral Area A had the lowest median total income about $64,000.
+According to the above map, we can see that households in both Belcarra and Anmore had the top median total income above `$160,000` in 2020, while households in Electoral Area A had the lowest median total income about $64,000.
 
 #### Number And Median After-tax Income Of Households
 
@@ -166,9 +167,9 @@ Based on the above graph, Tsawwassen First Nation had the highest growth rate (1
 
 In 2020, the percentage of persons 15 years and older in Metro Vancouver with income from any COVID-19 government income support and benefits was 73.3%, while the percentage with income from earning replacement benefits was 30.6%.
 
-*Any COVID-19 government income support and benefits refers to the sum of benefits from various new and existing federal, provincial, and territorial programs intended to provide financial support to individuals affected by the COVID‑19 pandemic and the public health measures implemented to minimize the spread of the virus.*
+> Any COVID-19 government income support and benefits refers to the sum of benefits from various new and existing federal, provincial, and territorial programs intended to provide financial support to individuals affected by the COVID‑19 pandemic and the public health measures implemented to minimize the spread of the virus.
 
-*Earning replacement benefits refers to the sum of payments received from COVID-19 - Emergency and recovery benefits and Employment Insurance (EI) benefits.*
+> Earning replacement benefits refers to the sum of payments received from COVID-19 - Emergency and recovery benefits and Employment Insurance (EI) benefits.
 
 ![image](images/Income4.png)
 
