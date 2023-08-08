@@ -1,0 +1,766 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>2021 Census Data Of Metro Vancouver &#8212; My awesome book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'vandata/2021 Census Data Of Metro Vancouver';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="intro.html">Vandata Home</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="markdown.html">Vandata insight 1</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fvandata/2021 Census Data Of Metro Vancouver.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/vandata/2021 Census Data Of Metro Vancouver.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>2021 Census Data Of Metro Vancouver</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-align-right-based-on-2021-census-of-population-from-statistics-canada-p"><p align="right"> Based on 2021 Census of Population from Statistics Canada</p></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#population">Population</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#growth-of-population">Growth of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-population">Geographic Distribution of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#age-distribution-of-population">Age Distribution of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#family-size-of-population">Family Size of Population</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#immigration">Immigration</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#immigrant-population">Immigrant Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#origin-countries-of-immigrants">Origin Countries of Immigrants</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-immigrants">Geographic Distribution of Immigrants</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethnocultural-and-religious-diversity">Ethnocultural And Religious Diversity</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#religion">Religion</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#visible-minority">Visible Minority</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#language">Language</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#official-language">Official Language</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#most-common-languages-spoken-at-home">Most Common Languages Spoken At Home</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#languages-used-at-work">Languages used at work</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indigenous">Indigenous</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#housing">Housing</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#type-of-dwelling">Type Of Dwelling</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#average-value-of-dwellings">Average Value of Dwellings</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#tenure">Tenure</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#housing-affordability">Housing Affordability</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#income">Income</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#total-income-of-households">Total Income Of Households</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#number-and-median-after-tax-income-of-households">Number And Median After-tax Income Of Households</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#pandemic-related-income-support-benefits">Pandemic-related Income Support Benefits</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#education">Education</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labour">Labour</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#occupation">Occupation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#work-activity">Work Activity</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#commuting">Commuting</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mode-of-commuting">Mode Of Commuting</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commuting-duration">Commuting Duration</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#place-of-work-status">Place Of Work Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="census-data-of-metro-vancouver">
+<h1>2021 Census Data Of Metro Vancouver<a class="headerlink" href="#census-data-of-metro-vancouver" title="Permalink to this heading">#</a></h1>
+<section id="p-align-right-based-on-2021-census-of-population-from-statistics-canada-p">
+<h2><p align="right"> Based on 2021 Census of Population from Statistics Canada</p><a class="headerlink" href="#p-align-right-based-on-2021-census-of-population-from-statistics-canada-p" title="Permalink to this heading">#</a></h2>
+<p>Metro Vancouver, also known as Greater Vancouver, is the metropolitan area with its major urban centre being the city of Vancouver, British Columbia, Canada. This is a deep-dive analysis for the Metro Vancouver based on the 2021 Census of Population from Statistics Canada.</p>
+<section id="population">
+<h3>Population<a class="headerlink" href="#population" title="Permalink to this heading">#</a></h3>
+<section id="growth-of-population">
+<h4>Growth of Population<a class="headerlink" href="#growth-of-population" title="Permalink to this heading">#</a></h4>
+<p>In 2021, the enumerated population of Metro Vancouver was 2,642,825, which represents a change of 7.3% from 2016, compared to the provincial average of 7.6% and the national average of 5.2%.</p>
+<p><img alt="image" src="../_images/Population1.png" /></p>
+</section>
+<section id="geographic-distribution-of-population">
+<h4>Geographic Distribution of Population<a class="headerlink" href="#geographic-distribution-of-population" title="Permalink to this heading">#</a></h4>
+<p>From the map below, we can see that Vancouver, Surrey and Burnaby were the top three populated cities within Metro Vancouver. As a contrast, Belcarra, Lions Bay and Tsawwassen First Nation had the lowest population.</p>
+<p><img alt="image" src="../_images/Population2.png" /></p>
+</section>
+<section id="age-distribution-of-population">
+<h4>Age Distribution of Population<a class="headerlink" href="#age-distribution-of-population" title="Permalink to this heading">#</a></h4>
+<p>In 2021, the average age for population of Metro Vancouver was 41.7, in comparison, for British Columbia and Canada, the average age was 43.1 and 41.9 respectively.</p>
+<p><img alt="image" src="../_images/Population3.png" /></p>
+<p>According to the above chart, the 20-39 age group and the 60-79 age group had the fastest growth rate, while the 40-59 age group had a slight decrease.</p>
+<p>In 2021, 460,790 persons aged 65 and over were enumerated in Metro Vancouver, representing 17.4% of the total population. In comparison, for Canada, the proportion of seniors was 19% in 2021.</p>
+</section>
+<section id="family-size-of-population">
+<h4>Family Size of Population<a class="headerlink" href="#family-size-of-population" title="Permalink to this heading">#</a></h4>
+<p>Overall in 2021, nearly half of the families in Metro Vancouver consisted of just 2 persons, which slightly increases in comparsion with the proportion of 48% in 2016.</p>
+<p><img alt="image" src="../_images/Population4.png" /></p>
+<p>6.5% of the families in Metro Vancouver consisted of 5 or more persons, compared with 8.3% in Canada. And in 2021, the average size of census families in Metro Vancouver was 2.9, which is the same as the number of Canada.</p>
+</section>
+</section>
+<section id="immigration">
+<h3>Immigration<a class="headerlink" href="#immigration" title="Permalink to this heading">#</a></h3>
+<section id="immigrant-population">
+<h4>Immigrant Population<a class="headerlink" href="#immigrant-population" title="Permalink to this heading">#</a></h4>
+<p>According to the 2021 Census, 1,089,185 people, that is, 41.8% of the population in Metro Vancouver, were foreign-born (immigrants), 1,384,550 (53.1%) were Canadian-born (non-immigrants) and 133,280 (5.1%) were non-permanent residents.</p>
+<p>Among immigrants in 2021, 154,820 came between 2016 and 2021. These recent immigrants made up 14.2% of the immigrant population.</p>
+<p><img alt="image" src="../_images/Immigration1.png" /></p>
+<p>As shown above, the percentage of immigrant population in Metro Vancouver was greatly higher than that in British Columbia and Canada, and slightly increased from 40.0% in 2011 to 41.8% in 2021.</p>
+</section>
+<section id="origin-countries-of-immigrants">
+<h4>Origin Countries of Immigrants<a class="headerlink" href="#origin-countries-of-immigrants" title="Permalink to this heading">#</a></h4>
+<p>In 2021, the top three origin countries of recent immigrants to Metro Vancouver was China (20.2%), India (19.7%) and Philippines (9.8%).</p>
+<p><img alt="image" src="../_images/immigration2.png" /></p>
+<p><em>‘Recent immigrant’ refers to an immigrant who first obtained his or her landed immigrant or permanent resident status between January 1, 2016 and May 11, 2021.</em></p>
+</section>
+<section id="geographic-distribution-of-immigrants">
+<h4>Geographic Distribution of Immigrants<a class="headerlink" href="#geographic-distribution-of-immigrants" title="Permalink to this heading">#</a></h4>
+<p>Statistics Canada also breaks down the proportion of immigrants by municipalities. In Metro Vancouver, Richmond toped the list, with about 60.3% of residents identifying as immigrants, followed by Burnaby at 50.4%. In contrast, Langley Township, Langley City, Maple Ridge, Bowen Island and Belcarra had the proportion below 25% as immigrants.</p>
+<p><img alt="image" src="../_images/immigration3.png" /></p>
+</section>
+</section>
+<section id="ethnocultural-and-religious-diversity">
+<h3>Ethnocultural And Religious Diversity<a class="headerlink" href="#ethnocultural-and-religious-diversity" title="Permalink to this heading">#</a></h3>
+<section id="religion">
+<h4>Religion<a class="headerlink" href="#religion" title="Permalink to this heading">#</a></h4>
+<p>In 2021, 47.1% of population in Metro Vancouver declared no religion and secular perspectives, considerably higher than the national figure of 34.6%. The top religious group was Christian which represents 33.1% of the total population, and the second group was Sikh representing 8.5% of the total population.</p>
+<p><img alt="image" src="../_images/Religion1.png" /></p>
+</section>
+<section id="visible-minority">
+<h4>Visible Minority<a class="headerlink" href="#visible-minority" title="Permalink to this heading">#</a></h4>
+<p>In 2021, more than half (54.5%) of the total population in Metro Vancouver was visible minority, compared with 48.9% in 2016. The largest visible minority group was Chinese which represents 19.6% of the total population, the second group was South Asian with about 14.2% of the total population, and the third group was Filipino with about 5.5% of the total population.</p>
+<p><img alt="image" src="vandata/images/Visible%20Minority1.png" /></p>
+<p>Among municipalities in Metro Vancouver, Richmond had the highest percentage (80.3%) of residents belonging to a minority group in 2021. Burnaby was second with 67.8%, followed closely by Electoral Area A and Surrey.</p>
+<p><img alt="image" src="vandata/images/Visible%20Minority2.png" /></p>
+</section>
+</section>
+<section id="language">
+<h3>Language<a class="headerlink" href="#language" title="Permalink to this heading">#</a></h3>
+<section id="official-language">
+<h4>Official Language<a class="headerlink" href="#official-language" title="Permalink to this heading">#</a></h4>
+<p>In 2021, for the official language, about 88% of population in Metro Vancouver could only speak English, and the proportion of French only speakers was just 0.04%, which is obviously lower than the proportion at 11.2% in Canada.</p>
+<p><img alt="image" src="../_images/Language1.png" /></p>
+</section>
+<section id="most-common-languages-spoken-at-home">
+<h4>Most Common Languages Spoken At Home<a class="headerlink" href="#most-common-languages-spoken-at-home" title="Permalink to this heading">#</a></h4>
+<p>In 2021, 65.9% of Metro Vancouver’s residents spoke English at home, and only 0.3% of residents in Metro Vancouver spoke French at home, which is significantly lower than the whole Canada where 19.2% spoke French.</p>
+<p><img alt="image" src="../_images/Language2.png" /></p>
+<p>Other than official languages, two forms of Chinese Languages - Mandarin and Cantonese, both reached the proportion level above 5%, and the other one language with the proportion above 5% was Punjabi.</p>
+</section>
+<section id="languages-used-at-work">
+<h4>Languages used at work<a class="headerlink" href="#languages-used-at-work" title="Permalink to this heading">#</a></h4>
+<p>In 2021, about 95% proportion of workers in Metro Vancouver regularly used English at work, while only 4.7% proportion of workers used non-official languages most often at work.</p>
+<p><img alt="image" src="../_images/Language3.png" /></p>
+</section>
+</section>
+<section id="indigenous">
+<h3>Indigenous<a class="headerlink" href="#indigenous" title="Permalink to this heading">#</a></h3>
+<p>In 2021, there were 63,340 Indigenous persons in Metro Vancouver, making up 2.4% of the population in the Metro Vancouver, compared with 5.9% in British Columbia and 5.0% in Canada.</p>
+<p><img alt="image" src="../_images/Indigenous.png" /></p>
+<p>The majority of the Indigenous population reported a single Indigenous identity — either First Nations, Métis or Inuk (Inuit). Of the Indigenous population in Metro Vancouver, 56.8% (35,950) were First Nations people, 38.1% (24,105) were Métis, and 0.8% (515) were Inuit.</p>
+<p>In addition to those who reported a single Indigenous identity, 1,695 people reported more than one Indigenous identity and 1,080 were defined as having an Indigenous identity that was not included elsewhere.</p>
+</section>
+<section id="housing">
+<h3>Housing<a class="headerlink" href="#housing" title="Permalink to this heading">#</a></h3>
+<section id="type-of-dwelling">
+<h4>Type Of Dwelling<a class="headerlink" href="#type-of-dwelling" title="Permalink to this heading">#</a></h4>
+<p>In 2021, there were 1,043,320 occupied private dwellings in Metro Vancouver, wherein apartment (high-rise, low-rise and duplexes) represented nearly 60% of all occupied private dwellings in this region. Single-detached dwellings (single-detached house and movable dwelling) represented 28.1% of all occupied private dwellings in Metro Vancouver, and had the lowest growth rate at 2.2% between 2016 and 2021, while single-attached dwellings had the highest growth rate at 12.2%.</p>
+<p><img alt="image" src="../_images/Housing1.png" /></p>
+</section>
+<section id="average-value-of-dwellings">
+<h4>Average Value of Dwellings<a class="headerlink" href="#average-value-of-dwellings" title="Permalink to this heading">#</a></h4>
+<p>The average value of dwellings continued to increase in Metro Vancouver between 2006 and 2021. In 2021, the average value of a dwelling in Metro Vancouver was $1,304,000, which increased by 29.63% from 2016.</p>
+<p><img alt="image" src="../_images/Housing2.png" /></p>
+<p><em>The average value of a dwelling refers to the value of the entire dwelling, including the value of the land it is on and of any other structure, such as a
+garage, which is on the property. If the dwelling is located in a building which contains several dwellings, or a combination of residential and business
+premises, all of which the household owns, the value is estimated as a portion of the market value that applies only to the dwelling in which the
+household resides.</em></p>
+</section>
+<section id="tenure">
+<h4>Tenure<a class="headerlink" href="#tenure" title="Permalink to this heading">#</a></h4>
+<p>In 2021, there were 1,043,320 households in Metro Vancouver with a homeownership rate of 62.1%, which changed by -1.6 percentage points from 2016.</p>
+<p><img alt="image" src="../_images/Housing3.png" /></p>
+<p>Although ownership remained the predominant form of tenure in Metro Vancouver, between 2006 and 2021, the percentage of households who owned decreased and the percentage who rented increased in Metro Vancouver due to the rapidly increased price of dwellings.</p>
+</section>
+<section id="housing-affordability">
+<h4>Housing Affordability<a class="headerlink" href="#housing-affordability" title="Permalink to this heading">#</a></h4>
+<p>In Canada, housing is considered unaffordable if it costs more than 30% of a household’s before-tax income. In 2021, 38.5% of renters in Metro Vancouver spent more than 30% of their income on rent, which was decreased from 43.5% in 2016. In comparison, 24.4% of home owners in Metro Vancouver spent 30% or more of their household income on housing, which was slightly decreased from 25.4% in 2016.</p>
+<p><img alt="image" src="../_images/Housing4.png" /></p>
+<p>In addition, based on the above table, it is clear that even the average monthly shelter costs for both owned dwellings and rented dwelling increased by more than $300 from 2016, the proportion of unaffordable household still decreased.</p>
+</section>
+</section>
+<section id="income">
+<h3>Income<a class="headerlink" href="#income" title="Permalink to this heading">#</a></h3>
+<section id="total-income-of-households">
+<h4>Total Income Of Households<a class="headerlink" href="#total-income-of-households" title="Permalink to this heading">#</a></h4>
+<p>In 2020, the median total income of households in Metro Vancouver was <span class="math notranslate nohighlight">\(90,000, a change of 23.8% from \)</span>72,662 in 2015.</p>
+<p><img alt="image" src="../_images/Income1.png" /></p>
+<p>More than 75% households in Metro Vancouver had the total income below <span class="math notranslate nohighlight">\(150,000 in 2020, wherein about 30% households had the total income belonging to the income group \)</span>50,000-$99,999.</p>
+<p><img alt="image" src="../_images/Income2.png" /></p>
+<p>According to the above map, we can see that households in both Belcarra and Anmore had the top median total income above <span class="math notranslate nohighlight">\(160,000 in 2020, while households in Electoral Area A had the lowest median total income about \)</span>64,000.</p>
+</section>
+<section id="number-and-median-after-tax-income-of-households">
+<h4>Number And Median After-tax Income Of Households<a class="headerlink" href="#number-and-median-after-tax-income-of-households" title="Permalink to this heading">#</a></h4>
+<p><img alt="image" src="../_images/Income3.png" /></p>
+<p>Based on the above graph, Tsawwassen First Nation had the highest growth rate (186.2%) for number of households and the lowest growth rate (6.2%) for median after-tax income of households between 2015 and 2020 at the same time. In addition, Electoral Area A was the only one region with both growth rates above 25%. And the growth rate for number of households in Port Moody was as low as 1%.</p>
+</section>
+<section id="pandemic-related-income-support-benefits">
+<h4>Pandemic-related Income Support Benefits<a class="headerlink" href="#pandemic-related-income-support-benefits" title="Permalink to this heading">#</a></h4>
+<p>In 2020, the percentage of persons 15 years and older in Metro Vancouver with income from any COVID-19 government income support and benefits was 73.3%, while the percentage with income from earning replacement benefits was 30.6%.</p>
+<p><em>Any COVID-19 government income support and benefits refers to the sum of benefits from various new and existing federal, provincial, and territorial programs intended to provide financial support to individuals affected by the COVID‑19 pandemic and the public health measures implemented to minimize the spread of the virus.</em></p>
+<p><em>Earning replacement benefits refers to the sum of payments received from COVID-19 - Emergency and recovery benefits and Employment Insurance (EI) benefits.</em></p>
+<p><img alt="image" src="../_images/Income4.png" /></p>
+<p>In 2020, 25.3% residents in Metro Vancouver had income from CERB, which was a little higher than the percentage in British Columbia and Canada, while the percentage of population with income from CRCB in Metro Vancouver in 2020 was only 0.4%, in comparison with 0.7% in Canada.</p>
+</section>
+</section>
+<section id="education">
+<h3>Education<a class="headerlink" href="#education" title="Permalink to this heading">#</a></h3>
+<p>Overall in 2021, 43.2% of population aged 25 to 64 in Metro Vancouver had a bachelor’s degree or higher, compared to 35.0% in British Columbia and 32.9% in Canada.</p>
+<p><img alt="image" src="../_images/Education1.png" /></p>
+<p>34.6% of population in Metro Vancouver had a location of study outside Canada, out of those aged 25 to 64 with a postsecondary certificate, diploma or degree. This compares to 26.1% in British Columbia and 20.1% in Canada overall. The most common location of study outside Canada for Metro Vancouver was China.</p>
+</section>
+<section id="labour">
+<h3>Labour<a class="headerlink" href="#labour" title="Permalink to this heading">#</a></h3>
+<section id="occupation">
+<h4>Occupation<a class="headerlink" href="#occupation" title="Permalink to this heading">#</a></h4>
+<p>Based on the breakdown of occupations in Metro Vancouver in 2021, Sales and service occupations, Business finance and adminstration occupations, and Trades, transport and equipment operators and related occupations were the top 3 occupations with the highest percentage of employed labour force.</p>
+<p><img alt="image" src="../_images/Labour1.png" /></p>
+</section>
+<section id="work-activity">
+<h4>Work Activity<a class="headerlink" href="#work-activity" title="Permalink to this heading">#</a></h4>
+<p>During 2020, about 65% of population aged 15 years and over in Metro Vancouver worked, wherein about 1/3 of population worked full year full time.</p>
+<p><img alt="image" src="../_images/Labour2.png" /></p>
+<p>In 2021, the employment rate for population aged 15 years and over in Metro Vancouver was 60%, wherein 8.6% of those participating in the labour force in Metro Vancouver were unemployed, in comparison with 5.8% in 2016. In addition, 16.7% of the employed labour force in Metro Vancouver was self-employed in 2021, compared with 13.3% in 2016.</p>
+</section>
+</section>
+<section id="commuting">
+<h3>Commuting<a class="headerlink" href="#commuting" title="Permalink to this heading">#</a></h3>
+<section id="mode-of-commuting">
+<h4>Mode Of Commuting<a class="headerlink" href="#mode-of-commuting" title="Permalink to this heading">#</a></h4>
+<p>In 2021, driving remained the primary mode of transportation with 74.7% of Metro Vancouver’s employed labour force going to work by car, which is increased from 69% in 2016. In contrast, between 2016 and 2021, the percentage of commuters who used public transit decreased from 20% to 14.9% due to the epidemic.</p>
+<p><img alt="image" src="../_images/Commuting1.png" /></p>
+</section>
+<section id="commuting-duration">
+<h4>Commuting Duration<a class="headerlink" href="#commuting-duration" title="Permalink to this heading">#</a></h4>
+<p>With more workers went to work by car, the commuting duration is obviously shortened in 2021. According to the graph below, about 55% of the workforce in Metro Vancouver commuted less than 30 minutes, in comparison with 50% in 2016, and about 8% of the workforce commuted 1 hour and over, compared with 11% in 2016.</p>
+<p><img alt="image" src="../_images/Commuting2.png" /></p>
+</section>
+<section id="place-of-work-status">
+<h4>Place Of Work Status<a class="headerlink" href="#place-of-work-status" title="Permalink to this heading">#</a></h4>
+<p>In 2021, about 26% of the employed labour force in Metro Vancouver worked from home, which was greatly increased from 8% in 2016 due to epidemic.</p>
+<p><img alt="image" src="../_images/Commuting3.png" /></p>
+</section>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./vandata"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-align-right-based-on-2021-census-of-population-from-statistics-canada-p"><p align="right"> Based on 2021 Census of Population from Statistics Canada</p></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#population">Population</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#growth-of-population">Growth of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-population">Geographic Distribution of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#age-distribution-of-population">Age Distribution of Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#family-size-of-population">Family Size of Population</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#immigration">Immigration</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#immigrant-population">Immigrant Population</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#origin-countries-of-immigrants">Origin Countries of Immigrants</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-immigrants">Geographic Distribution of Immigrants</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethnocultural-and-religious-diversity">Ethnocultural And Religious Diversity</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#religion">Religion</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#visible-minority">Visible Minority</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#language">Language</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#official-language">Official Language</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#most-common-languages-spoken-at-home">Most Common Languages Spoken At Home</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#languages-used-at-work">Languages used at work</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indigenous">Indigenous</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#housing">Housing</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#type-of-dwelling">Type Of Dwelling</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#average-value-of-dwellings">Average Value of Dwellings</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#tenure">Tenure</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#housing-affordability">Housing Affordability</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#income">Income</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#total-income-of-households">Total Income Of Households</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#number-and-median-after-tax-income-of-households">Number And Median After-tax Income Of Households</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#pandemic-related-income-support-benefits">Pandemic-related Income Support Benefits</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#education">Education</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labour">Labour</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#occupation">Occupation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#work-activity">Work Activity</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#commuting">Commuting</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mode-of-commuting">Mode Of Commuting</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#commuting-duration">Commuting Duration</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#place-of-work-status">Place Of Work Status</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Judy Chen
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

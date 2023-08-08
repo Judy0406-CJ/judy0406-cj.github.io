@@ -1,11 +1,7 @@
-# Welcome to your Jupyter Book
+# Welcome to Judy's Treasure Databox
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Hello, I'm Judy, a fanatic of data. 
 
-Check out the content pages bundled with this sample book to see more.
+This is a base for sharing my thoughts, discoveries and experiences with the world based on various interesting data around me. I hope everyone enjoy your stay here and find inspiration and motivation to make some changes in your daily life.
 
-```{tableofcontents}
-```
+I'd like to hear from all of you, so feel free to email me at chenjijudy0406@gmail.com if you have any questions or comments on my blog.
