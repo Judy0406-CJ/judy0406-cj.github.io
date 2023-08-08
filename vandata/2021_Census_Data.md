@@ -1,5 +1,5 @@
 
-# 2021 Census Data Of Metro Vancouver
+# 2021 Census Data
 ## <p align="right"> Based on 2021 Census of Population from Statistics Canada</p>
 
 Metro Vancouver, also known as Greater Vancouver, is the metropolitan area with its major urban centre being the city of Vancouver, British Columbia, Canada. This is a deep-dive analysis for the Metro Vancouver based on the 2021 Census of Population from Statistics Canada.

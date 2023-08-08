@@ -3,7 +3,8 @@
 
 format: jb-book
 root: intro
-chapters:
-  - file: vandata/intro
-    sections:
-      - file: vandata/2021_Census_Data_Of_Metro_Vancouver
+parts:
+  - caption: "Vandata"
+    chapters:
+      - file: vandata/intro
+      - file: vandata/2021_Census_Data
