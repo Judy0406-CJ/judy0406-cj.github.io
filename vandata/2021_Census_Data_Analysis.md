@@ -1,8 +1,10 @@
 
-# 2021 Census Data
-## <p align="right"> Based on 2021 Census of Population from Statistics Canada</p>
+# 2021 Census Data Analysis
+**<p align="right"> Based on 2021 Census of Population from Statistics Canada</p>**
 
 Metro Vancouver, also known as Greater Vancouver, is the metropolitan area with its major urban centre being the city of Vancouver, British Columbia, Canada. This is a deep-dive analysis for the Metro Vancouver based on the 2021 Census of Population from Statistics Canada.
+
+> Data source: https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
 ### Population
 
@@ -151,7 +153,7 @@ In 2020, the median total income of households in Metro Vancouver was `$90,000`,
 
 ![image](images/Income1.png)
 
-More than 75% households in Metro Vancouver had the total income below `$150,000` in 2020, wherein about 30% households had the total income belonging to the income group $50,000-$99,999.
+More than 75% households in Metro Vancouver had the total income below `$150,000` in 2020, wherein about 30% households had the total income belonging to the income group `$50,000-$99,999`.
 
 ![image](images/Income2.png)
 

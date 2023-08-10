@@ -7,4 +7,4 @@ parts:
   - caption: "Vandata"
     chapters:
       - file: vandata/intro
-      - file: vandata/2021_Census_Data
+      - file: vandata/2021_Census_Data_Analysis
