@@ -8,3 +8,4 @@ parts:
     chapters:
       - file: vandata/intro
       - file: vandata/2021_Census_Data_Analysis
+      - file: vandata/South_Surrey_&_White_Rock
