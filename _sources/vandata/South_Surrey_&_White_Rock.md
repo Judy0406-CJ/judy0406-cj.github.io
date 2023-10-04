@@ -194,3 +194,5 @@ South Surrey & White Rock offers the perfect blend of coastal living and suburba
 **School Crowding:** While the schools are top-notch, they can get crowded due to the area's popularity, potentially affecting classroom sizes.
 
 South Surrey & White Rock is like a beautiful beach day – full of sunshine and sandcastles, but with the occasional wave that catches you by surprise. It's a place where coastal beauty meets suburban comfort, a haven for families, retirees, and beach lovers alike. So, before you make your move, make sure to weigh these factors carefully and ensure they align with your lifestyle and priorities.
+
+**<p align="right">September 2023</p>**

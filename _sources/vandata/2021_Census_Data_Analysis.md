@@ -220,3 +220,5 @@ With more workers went to work by car, the commuting duration is obviously short
 In 2021, about 26% of the employed labour force in Metro Vancouver worked from home, which was greatly increased from 8% in 2016 due to epidemic.
 
 ![image](images/Commuting3.png)
+
+**<p align="right">August 2023</p>**
