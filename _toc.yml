@@ -9,3 +9,4 @@ parts:
       - file: vandata/intro
       - file: vandata/2021_Census_Data_Analysis
       - file: vandata/South_Surrey_&_White_Rock
+      - file: vandata/A_Brief_Analysis_on_K-12_Education
