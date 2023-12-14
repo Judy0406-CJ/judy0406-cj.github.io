@@ -11,3 +11,4 @@ parts:
       - file: vandata/South_Surrey_&_White_Rock
       - file: vandata/A_Brief_Analysis_on_K-12_Education
       - file: vandata/International_Students_in_Canada
+      - file: vandata/Cost_of_Living_in_Vancouver
