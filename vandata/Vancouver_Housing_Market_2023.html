@@ -1,0 +1,513 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Vancouver Housing Market 2023 &#8212; Judy’s Treasure Databox</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'vandata/Vancouver_Housing_Market_2023';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Birth Trends &amp; Fertility Rates" href="Birth_Trends_%26_Fertility_Rates.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Vandata</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2021_Census_Data_Analysis.html">2021 Census Data Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="South_Surrey_%26_White_Rock.html">South Surrey &amp; White Rock</a></li>
+<li class="toctree-l1"><a class="reference internal" href="A_Brief_Analysis_on_K-12_Education.html">A Brief Analysis on K-12 Education</a></li>
+<li class="toctree-l1"><a class="reference internal" href="International_Students_in_Canada.html">International Students in Canada</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Cost_of_Living_in_Vancouver.html">Cost of Living in Vancouver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Birth_Trends_%26_Fertility_Rates.html">Birth Trends &amp; Fertility Rates</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Vancouver Housing Market 2023</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Vancouver Housing Market 2023</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#home-sales">Home Sales</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-observations">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#benchmark-home-sale-prices">Benchmark Home Sale Prices</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sales-to-active-listings-ratio">Sales-to-Active Listings Ratio</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="vancouver-housing-market-2023">
+<h1>Vancouver Housing Market 2023<a class="headerlink" href="#vancouver-housing-market-2023" title="Permalink to this heading">#</a></h1>
+<p>The Vancouver housing market in 2023 faced unprecedented challenges, with high borrowing costs casting a shadow over the real estate landscape. Despite a decline in home sales, the market exhibited surprising resilience, concluding the year with balanced conditions.</p>
+<div style="text-align:center">
+<span style="width:70%;display:inline-block">
+<p><img alt="image" src="../_images/Canadian_Discount_Mortgage_Rate_2019-2023.png" /></p>
+</span>
+</div>
+<section id="home-sales">
+<h2>Home Sales<a class="headerlink" href="#home-sales" title="Permalink to this heading">#</a></h2>
+<p>Home sales data is obtained from the monthly MLS® Sales Facts published by both Real Rstate Board of Greater Vancouver (REBGV) and Fraser Valley Real Estate Board (FVREB).</p>
+<section id="key-observations">
+<h3>Key Observations<a class="headerlink" href="#key-observations" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In 2023, Metro Vancouver witnessed an 8.8% decrease in home sales, following a sharp 40% decline in 2022.</p></li>
+<li><p>Nearly half (48%) of 2023 homes sales in Metro Vancouver were apartments, but this veried significantly across the region.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Residential_Property_Sales_in_Metro_Vancouver_by_Property_Type_2014-2023.png" /></p>
+</span>
+</div>
+<ul class="simple">
+<li><p>Sales in Metro Vancouver started at their lowest point in January, peaked in May, and then gradually declined throughout the year.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Monthly_Home_Sales_by_Property_Type_in_Metro_Vancouver_2023.png" /></p>
+</span>
+</div>
+<ul class="simple">
+<li><p>Vancouver, which saw the greatest number of sales in 2023, also had the greatest number of apartment sales (about 62% of its total sales).</p></li>
+<li><p>Surrey boasted the highest numbers for detached and attached sales (34% and 33% of its total sales, respectively), maintaining a well-balanced distribution among residential property types.</p></li>
+<li><p>New Westminster stood out with a remarkable 71% of total sales attributed to apartments, while Delta dominated in detached sales, accounting for 59% of its total transactions.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Residential_Property_Sales_in_Metro_Vancouver_by_Property_Type_and_Region_2023.png" /></p>
+</span>
+</div>
+</section>
+</section>
+<section id="benchmark-home-sale-prices">
+<h2>Benchmark Home Sale Prices<a class="headerlink" href="#benchmark-home-sale-prices" title="Permalink to this heading">#</a></h2>
+<p>Benchmark home sale prices in Metro Vancouver are key indicator of affordability in the housing market, and are provided by the MLS® Home Price Index (HPI).</p>
+<p>Data is presented separately for the Real Estate Board areas of Greater Vancouver and the Fraser Valley recognizing the wide variation in sale price both by residential property type and by location.</p>
+<section id="id1">
+<h3>Key Observations<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Benchmark prices doubled and nearly tripled over the past decade across Metro Vancouver, outpacing wage increases.</p></li>
+<li><p>Attached benchmark prices exhibited the most growth, while detached prices increased the least in both Greater Vancouver and Fraser Valley in the past 10 years.</p></li>
+<li><p>The REBGV-covered areas experienced slower percentage growth in benchmark prices compared to FVREB-covered areas over the past decade.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:85%;display:inline-block">
+<p><img alt="image" src="../_images/Percentage_Change_in_Benchmark_Home_Sale_Prices_in_Metro_Vancouver_and_BC_Average_Weekly_Wage_2013-2023.png" /></p>
+</span>
+</div>
+<ul class="simple">
+<li><p>From 2019 to 2023, the composite benchmark price in REBGV areas outpaced FVREB in growth rate by 27% to 20%, respectively.</p></li>
+<li><p>Composite benchmark price in FVREB areas consistently remained lower than those in REBGV areas for the majority of the time. However, there was a brief departure from this trend, occurring from November 2021 to April 2022, when the composite benchmark price in FVREB areas momentarily surpassed that of REBGV. Subsequently, it swiftly reverted to its original position, reinstating the prevailing pattern.</p></li>
+<li><p>Composite benchmark prices in both Greater Vancouver and Fraser Valley rose from January to July in 2023, then gradually decreased towards the year’s end, finally with approximately a five percent gain throughout the year.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Composite_Benchmark_Home_Price_in_Metro_Vancouver_2019-2023.png" /></p>
+</span>
+</div>
+<ul class="simple">
+<li><p>West Vancouver maintained its status as the most expensive area to purchase a home.</p></li>
+<li><p>Cloverdale in Surrey experienced the highest growth rate at 47.2% in the past 5 years, while the west side of Vancouver had the lowest growth rate at 7.2%.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Benchmark_Price_and_Corresponding_5-year_Growth_Rate_in_Metro_Vancouver_by_Region_in_December_2023.png" /></p>
+</span>
+</div>
+</section>
+</section>
+<section id="sales-to-active-listings-ratio">
+<h2>Sales-to-Active Listings Ratio<a class="headerlink" href="#sales-to-active-listings-ratio" title="Permalink to this heading">#</a></h2>
+<p>The Sales-to-Active Listings Ratio (SALR) measures the tightness of a market. According to BCREA, the housing market is considered balanced if the SALR is between roughly 15% and 25%. If the ratio is above this range, the market is in seller’s territory, and if it is below this range, it is in buyer’s territory.</p>
+<section id="id2">
+<h3>Key Observations<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>FVREB consistently reported higher SALRs than REBGV in most time for each residential property type.</p></li>
+<li><p>In 2023, detached properties in REBGV areas spent half the year in buyer’s territory, while attached properties in FVREB areas predominantly favored sellers.</p></li>
+<li><p>The apartment and attached markets entered seller’s territory in February but gradually balanced by September in 2023.</p></li>
+</ul>
+<div style="text-align:center">
+<span style="width:80%;display:inline-block">
+<p><img alt="image" src="../_images/Sales-to-Active_Listings_Ratio_in_Metro_Vancouver_by_Property_Type_2023.png" /></p>
+</span>
+</div>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading">#</a></h2>
+<p>Despite the challenges posed by high interest rates, Metro Vancouver’s housing market demonstrated resilience, closing the year with approximately a five percent gain in home prices across all segments. This resilience suggests that Vancouver remains an attractive destination, with elevated borrowing costs not deterring determined buyers.</p>
+<p>Looking ahead to 2024, increased optimism is anticipated as the Bank of Canada is expected to lower interest rates before mid-year.</p>
+<p><em>Notes:</em></p>
+<p><em>Areas covered by REBGV include: Bowen Island, Burnaby, Coquitlam, Maple Ridge, New Westminster, North Vancouver, Pitt Meadows, Port Coquitlam, Port Moody (including Belcarra), Richmond, South Delta (Ladner), Squamish, Sunshine Coast, Vancouver, West Vancouver, and Whistler.</em></p>
+<p><em>Areas covered by FVREB include: Abbotsford, Mission, Langleys, Surrey, White Rock, Delta (excluding Ladner).</em></p>
+<p><strong><p align="right">January 2024</p></strong></p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./vandata"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Birth_Trends_%26_Fertility_Rates.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Birth Trends &amp; Fertility Rates</p>
+      </div>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#home-sales">Home Sales</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-observations">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#benchmark-home-sale-prices">Benchmark Home Sale Prices</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sales-to-active-listings-ratio">Sales-to-Active Listings Ratio</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Key Observations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Judy Chen
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
