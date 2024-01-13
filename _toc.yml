@@ -13,3 +13,4 @@ parts:
       - file: vandata/International_Students_in_Canada
       - file: vandata/Cost_of_Living_in_Vancouver
       - file: vandata/Birth_Trends_&_Fertility_Rates
+      - file: vandata/Vancouver_Housing_Market_2023
