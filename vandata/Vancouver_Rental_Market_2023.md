@@ -130,8 +130,7 @@ Understanding the difference in rent between vacant and occupied units sheds lig
 
 <div style="text-align:center">
 
-<span style="width:6
-0%;display:inline-block">
+<span style="width:60%;display:inline-block">
 
 ![image](images/Average_Rents_of_Vacant_and_Occupied_Market_Rental_Units_in_Metro_Vancouver_2023.png)
 
