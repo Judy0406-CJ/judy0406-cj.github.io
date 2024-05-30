@@ -17,3 +17,4 @@ parts:
       - file: vandata/Vehicle_&_Traffic_in_Vancouver
       - file: vandata/Vancouver_Rental_Market_2023
       - file: vandata/Homelessness_in_Vancouver_2023
+      - file: vandata/Hospital_Stays_in_Canada_2022-2023
