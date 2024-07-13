@@ -1,4 +1,4 @@
-# BC's Most Popular Baby Names 2023
+# BC's Top Baby Names 2023
 
 British Columbia has been collecting baby name data since 1922 through B.C.'s Vital Statistics Agency. 
 
