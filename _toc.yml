@@ -20,3 +20,4 @@ parts:
       - file: vandata/Hospital_Stays_in_Canada_2022-2023
       - file: vandata/Wait_Times_for_Priority_Procedures
       - file: vandata/BC's_Top_Baby_Names_2023
+      - file: vandata/Crime_Statistics_in_Vancouver_2023
